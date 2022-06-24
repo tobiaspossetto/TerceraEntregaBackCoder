@@ -1,7 +1,7 @@
 import http from 'http'
 import app, { PORT, args } from './app'
 import cluster from 'cluster'
-import { logger } from './utils/log4js'
+import { logger } from './helpers/log4js'
 
 const numCPUs = require('os').cpus().length
 
