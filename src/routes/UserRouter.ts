@@ -7,13 +7,14 @@ const userController = new UserController()
 const userRouter = Router()
 
 userRouter.post('/sign-in', passport.authenticate('local'), async (req: Request, res: Response) => {
-  try {
-    const result = await userController.signIn()
-    res.send(result)
-  } catch (error) {
-    logger.error(error)
-    res.send(error)
-  }
+  res.send('ok')
+  // try {
+  //   const result = await userController.signIn()
+  //   res.send(result)
+  // } catch (error) {
+  //   logger.error(error)
+  //   res.send(error)
+  // }
 })
 
 userRouter.post('/sign-up', async (req: Request, res: Response) => {

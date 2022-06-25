@@ -14,20 +14,19 @@ export default class UserService {
   }
 
   async signUp (userData:IdataUserRegistration) {
+    // se crea al usuario
 
+    const newUser = new UserModel()
+    newUser.email = userData.email
+
+    newUser.password = newUser.encryptPassword(userData.password)
+    newUser.name = userData.name
+    newUser.address = userData.address
+    newUser.phone = userData.phone
+    newUser.avatar = userData.avatar
+
+    await newUser.save()
+    logger.info('User created')
+    return true
   }
 }
-
-//  // se crea al usuario
-
-//  const newUser = new UserModel()
-//  newUser.email = userData.email
-//  newUser.password = newUser.encryptPassword(newUser.password)
-//  newUser.name = userData.name
-//  newUser.address = userData.address
-//  newUser.phone = userData.phone
-//  newUser.avatar = userData.avatar
-
-//  await newUser.save()
-//  logger.info('User created')
-//  return true

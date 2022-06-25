@@ -3,58 +3,57 @@ import passport from 'passport'
 
 import { validPassword } from '../helpers/validPassword'
 import { UserModel } from '../Models/UserModel'
-const LocalStrategy = require('passport-local').Strategy
+import { Strategy as LocalStrategy } from 'passport-local'
 
-passport.use(
-  // eslint-disable-next-line new-cap
-  new LocalStrategy(
-    {
-      usernameField: 'email',
-      passwordField: 'password',
-      passReqToCallback: true
-    },
-    async function (password:string, email:string, done:any) {
-      logger.info('ENTRAMOS A LA FUNCION DE PASSPORT')
+passport.use(new LocalStrategy(
+  {
+    usernameField: 'email',
+    passwordField: 'password',
+    passReqToCallback: true
+  },
+  async function (req, email:string, password:string, done:any) {
+    logger.info('ENTRAMOS A LA FUNCION DE PASSPORT')
+    try {
+      let user
       try {
-        let user
-        try {
-          user = await UserModel.findOne({ email })
-          logger.info('SE BUSCA USUARIO')
-        } catch (error) {
-          logger.info('ERROR BUSCANDO EN LA DB')
-        }
-        logger.info(user)
-        if (!user) {
-          logger.info('NO SE ENCONTRO USUARIO')
-          // DONE: primer parametro va un error o null y segundo si la persona esta autenticada
-          return done(null, false)
-        }
-
-        // * SI HAY USUARIO... VALIDAMOS PASSWORD
-
-        const isValidPassword = await validPassword(password, user.password)
-        logger.info('PASAMOS VALIDAMOS PASSWORD')
-        if (!isValidPassword) {
-          logger.info(`Invalid password for user ${email}`)
-          return done(null, false)
-        }
-        // * SI LA CONTRASEÑA ES CORRECTA...
-        const finalUser = {
-          id: user.id,
-          email: user.email,
-          name: user.name,
-          username: user.name
-        }
-        logger.info('USUARIO ENCONTRADO')
-        return done(null, finalUser)
+        user = await UserModel.findOne({ email })
+        logger.info('SE BUSCA USUARIO')
       } catch (error) {
-        logger.info('ERROR DIRECTO')
-        logger.error(error)
-        return done(error)
+        logger.info('ERROR BUSCANDO EN LA DB')
       }
+      logger.info(user)
+      if (!user) {
+        logger.info('NO SE ENCONTRO USUARIO')
+        // DONE: primer parametro va un error o null y segundo si la persona esta autenticada
+        return done(null, false)
+      }
+
+      // * SI HAY USUARIO... VALIDAMOS PASSWORD
+      logger.info(password)
+      logger.info(user.password)
+      const isValidPassword = await validPassword(password, user.password)
+      logger.info('PASAMOS VALIDAMOS PASSWORD')
+      if (!isValidPassword) {
+        logger.info(`Invalid password for user ${email}`)
+        return done(null, false)
+      }
+      // * SI LA CONTRASEÑA ES CORRECTA...
+      const finalUser = {
+        id: user.id,
+        email: user.email,
+        name: user.name,
+        username: user.name
+      }
+      logger.info('USUARIO ENCONTRADO')
+      return done(null, finalUser)
+    } catch (error) {
+      logger.info('ERROR DIRECTO')
+      logger.error(error)
+      done(error)
     }
-  )
-)
+  }
+
+))
 
 passport.serializeUser((user:any, done:any) => {
   done(null, user.id)
@@ -67,6 +66,6 @@ passport.deserializeUser(async function (id, done:any) {
     done(null, { email: result.email, id: result._id, name: result.name })
   } catch (error) {
     logger.error(error)
-    return done(error)
+    done(error)
   }
 })

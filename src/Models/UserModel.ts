@@ -1,6 +1,7 @@
 import mongoose from 'mongoose'
-import bcrypt from 'bcrypt-nodejs'
+import bcrypt from 'bcryptjs'
 import { IUser } from '../types/userTypes'
+import { logger } from '../helpers/log4js'
 
 const userCollection = 'users'
 
@@ -16,7 +17,8 @@ const UserSchema = new mongoose.Schema({
 })
 
 UserSchema.methods.encryptPassword = (password: string) => {
-  return bcrypt.hashSync(password, bcrypt.genSaltSync(10))
+  logger.info(password)
+  return bcrypt.hashSync(password, 10)
 }
 
 export const UserModel = mongoose.model<IUser>(userCollection, UserSchema)

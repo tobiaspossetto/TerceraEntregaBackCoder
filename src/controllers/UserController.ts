@@ -14,11 +14,11 @@ export default class UserController {
   async signUp (userData:IdataUserRegistration) {
     try {
       const res = await userService.signUp(userData)
-      // if (res) {
-      //   return true
-      // } else {
-      //   return false
-      // }
+      if (res) {
+        return true
+      } else {
+        return false
+      }
     } catch (error) {
       logger.error(error)
       return false
