@@ -114,3 +114,31 @@
     at UserService.signUp (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/UserService.ts:25:16)
     at UserController.<anonymous> (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/controllers/file:/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/controllers/UserController.ts:16:37)
     at Generator.next (<anonymous>)
+[2022-06-25T12:29:10.704] [ERROR] default - no hay file
+[2022-06-25T12:41:57.176] [ERROR] default - Error: users validation failed: address: Path `address` is required.
+    at ValidationError.inspect (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/log4js/lib/layouts.js:64:57)
+    at app (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/log4js/lib/appenders/file.js:82:23)
+    at /home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/log4js/lib/appenders/logLevelFilter.js:7:7
+    at /home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>) {
+  errors: {
+    address: ValidatorError: Path `address` is required.
+        at validate (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1330:13)
+        at SchemaString.SchemaType.doValidate (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1314:7)
+        at /home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/document.js:2761:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'address',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'users validation failed'
+}

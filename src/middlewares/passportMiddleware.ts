@@ -4,6 +4,7 @@ import passport from 'passport'
 import { validPassword } from '../helpers/validPassword'
 import { UserModel } from '../Models/UserModel'
 import { Strategy as LocalStrategy } from 'passport-local'
+import { NextFunction, Request, Response } from 'express'
 
 passport.use(new LocalStrategy(
   {
@@ -69,3 +70,13 @@ passport.deserializeUser(async function (id, done:any) {
     done(error)
   }
 })
+
+export const isAuth = (req: Request, res: Response, next: NextFunction) => {
+  if (req.isAuthenticated()) {
+    // @ts-ignore
+    // console.log(req.user)
+    return next()
+  } else {
+    res.send('NO AUTORIZADO')
+  }
+}
