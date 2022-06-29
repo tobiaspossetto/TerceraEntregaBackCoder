@@ -13,30 +13,25 @@ passport.use(new LocalStrategy(
     passReqToCallback: true
   },
   async function (req, email:string, password:string, done:any) {
-    logger.info('ENTRAMOS A LA FUNCION DE PASSPORT')
     try {
       let user
       try {
         user = await UserModel.findOne({ email })
-        logger.info('SE BUSCA USUARIO')
       } catch (error) {
-        logger.info('ERROR BUSCANDO EN LA DB')
+
       }
-      logger.info(user)
+
       if (!user) {
-        logger.info('NO SE ENCONTRO USUARIO')
         // DONE: primer parametro va un error o null y segundo si la persona esta autenticada
         return done(null, false)
       }
 
       // * SI HAY USUARIO... VALIDAMOS PASSWORD
-      logger.info(password)
-      logger.info(user.password)
+
       const isValidPassword = await validPassword(password, user.password)
-      logger.info('PASAMOS VALIDAMOS PASSWORD')
+
       if (!isValidPassword) {
-        logger.info(`Invalid password for user ${email}`)
-        return done(null, false)
+        return done(null, false, { message: 'Invalid password' })
       }
       // * SI LA CONTRASEÑA ES CORRECTA...
       const finalUser = {
@@ -45,10 +40,9 @@ passport.use(new LocalStrategy(
         name: user.name,
         username: user.name
       }
-      logger.info('USUARIO ENCONTRADO')
+
       return done(null, finalUser)
     } catch (error) {
-      logger.info('ERROR DIRECTO')
       logger.error(error)
       done(error)
     }
@@ -77,6 +71,6 @@ export const isAuth = (req: Request, res: Response, next: NextFunction) => {
     // console.log(req.user)
     return next()
   } else {
-    res.send('NO AUTORIZADO')
+    res.redirect('/sign-in')
   }
 }
