@@ -1,0 +1,73 @@
+[2022-06-30T18:19:32.930] [ERROR] default - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:784:19)
+    at SMTPConnection.login (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:438:38)
+    at /home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-transport/index.js:271:32
+    at SMTPConnection.<anonymous> (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:209:17)
+    at Object.onceWrapper (node:events:641:28)
+    at SMTPConnection.emit (node:events:527:28)
+    at SMTPConnection._actionEHLO (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:1319:14)
+    at SMTPConnection._processResponse (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:947:20)
+    at SMTPConnection._onData (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-06-30T18:20:15.666] [ERROR] default - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:784:19)
+    at SMTPConnection.login (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:438:38)
+    at /home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-transport/index.js:271:32
+    at SMTPConnection.<anonymous> (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:209:17)
+    at Object.onceWrapper (node:events:641:28)
+    at SMTPConnection.emit (node:events:527:28)
+    at SMTPConnection._actionEHLO (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:1319:14)
+    at SMTPConnection._processResponse (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:947:20)
+    at SMTPConnection._onData (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-06-30T18:20:34.354] [ERROR] default - no hay file
+[2022-06-30T18:20:53.783] [ERROR] default - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:784:19)
+    at SMTPConnection.login (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:438:38)
+    at /home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-transport/index.js:271:32
+    at SMTPConnection.<anonymous> (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:209:17)
+    at Object.onceWrapper (node:events:641:28)
+    at SMTPConnection.emit (node:events:527:28)
+    at SMTPConnection._actionEHLO (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:1319:14)
+    at SMTPConnection._processResponse (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:947:20)
+    at SMTPConnection._onData (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-06-30T19:35:49.888] [ERROR] default - { message: 'El email ya es utilizado', emailNotification: false }
+[2022-06-30T19:36:38.796] [ERROR] default - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r187-20020a4a4ec4000000b0041ba304546csm11504288ooa.1 - gsmtp
+    at SMTPConnection._formatError (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:1536:34)
+    at SMTPConnection.<anonymous> (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:540:26)
+    at SMTPConnection._processResponse (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:947:20)
+    at SMTPConnection._onData (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:189:44)
+    at TLSSocket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials r187-20020a4a4ec4000000b0041ba304546csm11504288ooa.1 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2022-06-30T19:38:22.553] [ERROR] default - Error: Some Message
+    at /home/tobias/Documentos/coderCursoBack/terceraEntrega/src/routes/file:/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/routes/UserRouter.ts:24:11
+    at Generator.next (<anonymous>)
+    at /home/tobias/Documentos/coderCursoBack/terceraEntrega/src/routes/UserRouter.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/routes/UserRouter.ts:4:12)
+    at /home/tobias/Documentos/coderCursoBack/terceraEntrega/src/routes/file:/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/routes/UserRouter.ts:22:105
+    at Layer.handle [as handle_request] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/express/lib/router/route.js:144:13)
+    at /home/tobias/Documentos/coderCursoBack/terceraEntrega/src/middlewares/file:/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/middlewares/multer.ts:22:5
+    at Generator.next (<anonymous>)

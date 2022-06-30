@@ -14,14 +14,38 @@ export default class UserController {
   async signUp (userData:IdataUserRegistration) {
     try {
       const res = await userService.signUp(userData)
-      if (res) {
-        return true
+      if (res.code === 1) {
+        return {
+          error: false,
+          code: 1,
+          data: { ...res.data }
+        }
+      } else if (res.code === 2) {
+        return {
+          error: true,
+          code: 2,
+          data: { ...res.data }
+        }
+      } else if (res.code === 3) {
+        return {
+          error: true,
+          code: 2,
+          data: { ...res.data }
+        }
       } else {
-        return false
+        return {
+          error: true,
+          code: 4,
+          data: { message: 'Ocurrio un error interno' }
+        }
       }
     } catch (error) {
       logger.error(error)
-      return false
+      return {
+        error: true,
+        code: 4,
+        data: { message: 'Ocurrio un error interno' }
+      }
     }
   }
 }

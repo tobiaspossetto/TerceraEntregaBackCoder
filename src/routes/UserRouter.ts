@@ -10,29 +10,32 @@ const userRouter = Router()
 
 userRouter.post('/sign-in', passport.authenticate('local'), async (req: Request, res: Response) => {
   res.redirect('/')
+  // try {
+  //   const result = await userController.signIn()
+  //   res.send(result)
+  // } catch (error) {
+  //   logger.error(error)
+  //   res.send(error)
+  // }
 })
 
 userRouter.post('/sign-up', upload.single('avatar'), multerCheck, async (req: Request, res: Response) => {
   try {
     const result = await userController.signUp({ ...req.body, avatar: req.file?.path })
-    logger.info('se creo al usuario')
-    if (result) {
-      try {
-        await passport.authenticate('local')
-        if (req.isAuthenticated()) {
-          res.redirect('/')
-        } else {
-          res.redirect('/sign-in')
-        }
-      } catch (error) {
-        res.redirect('/sign-in')
-      }
+    if (result.error) {
+      logger.error(result.data)
+
+      res.json(result).status(400)
     } else {
-      res.send(false).status(400)
+      res.redirect('/sign-in')
     }
   } catch (error) {
     logger.error(error)
-    res.send(error)
+    res.json({
+      error: true,
+      code: 4,
+      data: { message: 'Ocurrio un error interno' }
+    })
   }
 })
 
