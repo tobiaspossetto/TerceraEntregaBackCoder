@@ -10,13 +10,6 @@ const userRouter = Router()
 
 userRouter.post('/sign-in', passport.authenticate('local'), async (req: Request, res: Response) => {
   res.redirect('/')
-  // try {
-  //   const result = await userController.signIn()
-  //   res.send(result)
-  // } catch (error) {
-  //   logger.error(error)
-  //   res.send(error)
-  // }
 })
 
 userRouter.post('/sign-up', upload.single('avatar'), multerCheck, async (req: Request, res: Response) => {
@@ -39,9 +32,10 @@ userRouter.post('/sign-up', upload.single('avatar'), multerCheck, async (req: Re
   }
 })
 
-// isAuth
-
-userRouter.get('/', isAuth, async (req: Request, res: Response) => {
-  res.send('ruta protegida')
+userRouter.post('/logout', isAuth, (req, res, next) => {
+  req.logout(function (err) {
+    if (err) { return next(err) }
+    res.redirect('/sign-in')
+  })
 })
 export default userRouter

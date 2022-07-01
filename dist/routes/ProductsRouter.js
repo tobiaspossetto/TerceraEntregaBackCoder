@@ -8,11 +8,14 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-class ProductsService {
-    getAllProducts() {
-        return __awaiter(this, void 0, void 0, function* () {
-        });
-    }
-}
-exports.default = ProductsService;
+const express_1 = require("express");
+const passport_1 = __importDefault(require("passport"));
+const productsRouter = (0, express_1.Router)();
+productsRouter.post('/sign-in', passport_1.default.authenticate('local'), (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    res.redirect('/');
+}));
+exports.default = productsRouter;

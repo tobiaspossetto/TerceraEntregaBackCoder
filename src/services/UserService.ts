@@ -48,9 +48,15 @@ export default class UserService {
       logger.info('User created')
 
       const emailStatus = await sendMail({
-        to: newUser.email,
-        subject: 'Registrado con exito',
-        text: `Hola ${newUser.name}, has sido registrado con exito. 🥳️`
+        to: 'tango45245362@gmail.com',
+        subject: 'Nuevo registro en la app',
+        text: `Hola!! Con este correo se notifica que: ${newUser.name}, ha sido registrado con exito. 🥳️
+          DATOS DEL NUEVO USUARIO:
+          Nombre: ${newUser.name}
+          Direccion: ${newUser.address}
+          Telefono: ${newUser.phone}
+
+        `
       })
       if (emailStatus) {
         return {

@@ -71,3 +71,17 @@
     at next (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/express/lib/router/route.js:144:13)
     at /home/tobias/Documentos/coderCursoBack/terceraEntrega/src/middlewares/file:/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/middlewares/multer.ts:22:5
     at Generator.next (<anonymous>)
+[2022-07-01T16:03:45.669] [ERROR] default - Error: No recipients defined
+    at SMTPConnection._formatError (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:784:19)
+    at SMTPConnection._setEnvelope (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:1001:34)
+    at SMTPConnection.send (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:615:14)
+    at sendMessage (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-transport/index.js:227:28)
+    at /home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-transport/index.js:285:25
+    at SMTPConnection._actionAUTHComplete (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:1550:9)
+    at SMTPConnection.<anonymous> (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:540:26)
+    at SMTPConnection._processResponse (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:947:20)
+    at SMTPConnection._onData (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/nodemailer/lib/smtp-connection/index.js:189:44) {
+  code: 'EENVELOPE',
+  command: 'API'
+}

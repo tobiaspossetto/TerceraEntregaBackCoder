@@ -10,6 +10,7 @@ import userRouter from './routes/UserRouter'
 import { getConnectionMongo } from './db/mongoConnection'
 import './middlewares/passportMiddleware'
 import morgan from 'morgan'
+import productsRouter from './routes/ProductsRouter'
 
 dotenv.config()
 const app = express()
@@ -32,13 +33,16 @@ app.use(
     }
   })
 )
+getConnectionMongo()
+
 app.use(passport.initialize())
 app.use(passport.session())
 app.use(cookieParser())
-getConnectionMongo()
+
 app.set('views', './src/public/views')
 app.set('view engine', 'pug')
 
 app.use('/', routerViews)
 app.use('/api/user', userRouter)
+app.use('/api/products', productsRouter)
 export default app

@@ -28,16 +28,42 @@ class UserController {
         return __awaiter(this, void 0, void 0, function* () {
             try {
                 const res = yield userService.signUp(userData);
-                if (res) {
-                    return true;
+                if (res.code === 1) {
+                    return {
+                        error: false,
+                        code: 1,
+                        data: Object.assign({}, res.data)
+                    };
+                }
+                else if (res.code === 2) {
+                    return {
+                        error: true,
+                        code: 2,
+                        data: Object.assign({}, res.data)
+                    };
+                }
+                else if (res.code === 3) {
+                    return {
+                        error: true,
+                        code: 2,
+                        data: Object.assign({}, res.data)
+                    };
                 }
                 else {
-                    return false;
+                    return {
+                        error: true,
+                        code: 4,
+                        data: { message: 'Ocurrio un error interno' }
+                    };
                 }
             }
             catch (error) {
                 log4js_1.logger.error(error);
-                return false;
+                return {
+                    error: true,
+                    code: 4,
+                    data: { message: 'Ocurrio un error interno' }
+                };
             }
         });
     }

@@ -1,30 +1,50 @@
-'use strict'
-const __importDefault = (this && this.__importDefault) || function (mod) {
-  return (mod && mod.__esModule) ? mod : { default: mod }
-}
-Object.defineProperty(exports, '__esModule', { value: true })
-const nodemailer_1 = __importDefault(require('nodemailer'))
+"use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.sendMail = void 0;
+const nodemailer_1 = __importDefault(require("nodemailer"));
+const log4js_1 = require("./log4js");
+const dotenv_1 = __importDefault(require("dotenv"));
+dotenv_1.default.config();
 const transporter = nodemailer_1.default.createTransport({
-  service: 'gmail',
-  auth: {
-    user: 'tango45245362@gmail.com',
-    pass: 'cpwhhtbrjonnjffg'
-  }
-})
-const mailOptions = {
-  from: 'tango45245362@gmail.com',
-  to: 'tobigpossetto@gmail.com',
-  subject: 'Invoices due',
-  text: 'Dudes, we really need your money.'
-}
-try {
-  transporter.sendMail(mailOptions, function (error, info) {
-    if (error) {
-      console.log(error)
-    } else {
-      console.log('Email sent: ' + info.response)
+    service: 'gmail',
+    auth: {
+        user: 'tango45245362@gmail.com',
+        pass: process.env.GMAIL_PASSWORD
     }
-  })
-} catch (error) {
-  console.log(error)
-}
+});
+const sendMail = (info) => __awaiter(void 0, void 0, void 0, function* () {
+    const mailOptions = {
+        from: 'tango45245362@gmail.com',
+        to: info.to,
+        subject: info.subject,
+        text: info.text
+    };
+    try {
+        yield transporter.sendMail(mailOptions, function (error, info) {
+            if (error) {
+                log4js_1.logger.error(error);
+            }
+            else {
+                log4js_1.logger.info('Email sent: ' + info.response);
+                return true;
+            }
+        });
+    }
+    catch (error) {
+        log4js_1.logger.error(error);
+        return false;
+    }
+});
+exports.sendMail = sendMail;

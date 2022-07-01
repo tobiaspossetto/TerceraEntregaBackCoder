@@ -22,32 +22,34 @@ const userController = new UserController_1.default();
 const userRouter = (0, express_1.Router)();
 userRouter.post('/sign-in', passport_1.default.authenticate('local'), (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     res.redirect('/');
-    // try {
-    //   const result = await userController.signIn()
-    //   res.send(result)
-    // } catch (error) {
-    //   logger.error(error)
-    //   res.send(error)
-    // }
 }));
 userRouter.post('/sign-up', multer_1.upload.single('avatar'), multer_1.multerCheck, (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     var _a;
     try {
         const result = yield userController.signUp(Object.assign(Object.assign({}, req.body), { avatar: (_a = req.file) === null || _a === void 0 ? void 0 : _a.path }));
-        if (result) {
-            res.redirect('/sign-in');
+        if (result.error) {
+            log4js_1.logger.error(result.data);
+            res.json(result).status(400);
         }
         else {
-            res.send(false).status(400);
+            res.redirect('/sign-in');
         }
     }
     catch (error) {
         log4js_1.logger.error(error);
-        res.send(error);
+        res.json({
+            error: true,
+            code: 4,
+            data: { message: 'Ocurrio un error interno' }
+        });
     }
 }));
-// isAuth
-userRouter.get('/', passportMiddleware_1.isAuth, (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    res.send('ruta protegida');
-}));
+userRouter.post('/logout', passportMiddleware_1.isAuth, (req, res, next) => {
+    req.logout(function (err) {
+        if (err) {
+            return next(err);
+        }
+        res.redirect('/sign-in');
+    });
+});
 exports.default = userRouter;
