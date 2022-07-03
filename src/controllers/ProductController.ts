@@ -7,11 +7,28 @@ export default class productController {
   async getAllProducts () {
     try {
       const products = await service.getAllProducts()
-      logger.info(products)
+
       return products
     } catch (error) {
       logger.error(error)
-      return 0
+      return {
+        error: true,
+        data: { message: 'Ocurrio un error interno' }
+      }
+    }
+  }
+
+  async getProductsByCategory (cat:string) {
+    try {
+      const products = await service.getProductsByCategory(cat)
+
+      return products
+    } catch (error) {
+      logger.error(error)
+      return {
+        error: true,
+        data: { message: 'Ocurrio un error interno' }
+      }
     }
   }
 }

@@ -5,8 +5,75 @@ html(lang="en")
         meta(http-equiv="X-UA-Compatible" content="IE=edge")
         meta(name="viewport" content="width=device-width, initial-scale=1.0")
         title Document
-    body 
+        
+        style.
+            .products-container{
+                padding:20px;
+                background-color: rgb(1, 6, 51);
+                color: white;
+                width: 300px;
+             
+                
+            }
+            .products-container products{
+                padding:20px;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+            }
 
+            .products-container products div {
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                padding:10px;
+                margin:10px;
+                background-color: white;
+                color: black;
+            }
+    body
         h1 Document
-        form(action="/api/user/logout", method="post")
-            input(name="submit", type="submit", value="logout") 
+        div(id='profile')
+        form(action="/api/user/logout" method="post")
+            input(name="submit" type="submit" value="logout")
+        div(class='products-container')
+            div(id="products")
+    script.
+        async function fetchProductsJSON() {
+            const response = await fetch('api/products');
+            const prods = await response.json();
+            //map products on div products
+            console.log(prods)
+            prods.data.map(prod => {
+                const div = document.createElement('div');
+                div.innerHTML = `
+                    <div><img src=${prod.image}/></div>
+                    <h2>${prod.name}</h2>
+                    <p>${prod.descripcion}</p>
+                    <p>$ ${prod.price}</p>
+                    <p>${prod.stock}</p>
+                    <button data-id="${prod.id}">Add to cart</button>
+                `;
+                document.getElementById('products').appendChild(div);
+            });
+        }
+
+        async function fetchProfileJSON() {
+            const response = await fetch('api/user/profile');
+            const profile = await response.json();
+            //map products on div products
+            console.log(profile)
+            
+                const div = document.createElement('div');
+                div.innerHTML = `
+                    <div><img src=${profile.avatar}/></div>
+                    <h2>${profile.name}</h2>
+                    <p>${profile.email}</p>
+                 
+                `;
+                document.getElementById('profile').appendChild(div);
+        
+        }
+        fetchProductsJSON();
+        fetchProfileJSON()
+

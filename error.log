@@ -85,3 +85,24 @@
   code: 'EENVELOPE',
   command: 'API'
 }
+[2022-07-03T15:41:21.850] [ERROR] default - { message: 'El email ya es utilizado', emailNotification: false }
+[2022-07-03T15:57:12.727] [ERROR] default - Error: Ocurrio un error interno
+    at /home/tobias/Documentos/coderCursoBack/terceraEntrega/src/routes/file:/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/routes/ProductsRouter.ts:15:11
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/routes/ProductsRouter.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-07-03T15:57:30.244] [ERROR] default - Error: Ocurrio un error interno
+    at /home/tobias/Documentos/coderCursoBack/terceraEntrega/src/routes/file:/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/routes/ProductsRouter.ts:14:11
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/routes/ProductsRouter.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-07-03T15:59:17.701] [ERROR] default - Error: Ocurrio un error interno
+    at /home/tobias/Documentos/coderCursoBack/terceraEntrega/src/routes/file:/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/routes/ProductsRouter.ts:14:11
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/routes/ProductsRouter.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-07-03T15:59:19.455] [ERROR] default - Error: Ocurrio un error interno
+    at /home/tobias/Documentos/coderCursoBack/terceraEntrega/src/routes/file:/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/routes/ProductsRouter.ts:14:11
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/routes/ProductsRouter.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

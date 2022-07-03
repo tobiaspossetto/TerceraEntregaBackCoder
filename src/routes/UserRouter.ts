@@ -38,4 +38,8 @@ userRouter.post('/logout', isAuth, (req, res, next) => {
     res.redirect('/sign-in')
   })
 })
+
+userRouter.get('/profile', isAuth, async (req: Request, res: Response) => {
+  res.json(req.user)
+})
 export default userRouter

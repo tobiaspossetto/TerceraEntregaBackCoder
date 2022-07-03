@@ -58,7 +58,7 @@ passport.deserializeUser(async function (id, done:any) {
   try {
     const result = await UserModel.findById(id)
     // @ts-ignore
-    done(null, { email: result.email, id: result._id, name: result.name })
+    done(null, { email: result.email, id: result._id, name: result.name, avatar: result.avatar })
   } catch (error) {
     logger.error(error)
     done(error)
