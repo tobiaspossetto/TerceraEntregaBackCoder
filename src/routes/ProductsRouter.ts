@@ -19,9 +19,20 @@ productsRouter.get('/', isAuth, async (req: Request, res: Response) => {
   }
 })
 
-productsRouter.get('/:cat', isAuth, async (req: Request, res: Response) => {
+productsRouter.get('/cat/:cat', isAuth, async (req: Request, res: Response) => {
   try {
     const result = await controller.getProductsByCategory(req.params.cat)
+
+    res.json(result)
+  } catch (error) {
+    logger.error(error)
+    res.status(500).json({ error: true, data: { message: 'Ocurrio un error interno' } })
+  }
+})
+
+productsRouter.get('/:id', isAuth, async (req: Request, res: Response) => {
+  try {
+    const result = await controller.getProductsById(req.params.id)
 
     res.json(result)
   } catch (error) {

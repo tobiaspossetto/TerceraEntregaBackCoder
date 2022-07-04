@@ -9,3 +9,9 @@ export interface Iproduct {
     _id: string;
     _v?: number;
   }
+
+export interface Iorder{
+    arrayIdProducts: number[];
+    totalItems: number;
+    totalPrice: number;
+  }

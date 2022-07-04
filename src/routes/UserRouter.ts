@@ -35,11 +35,27 @@ userRouter.post('/sign-up', upload.single('avatar'), multerCheck, async (req: Re
 userRouter.post('/logout', isAuth, (req, res, next) => {
   req.logout(function (err) {
     if (err) { return next(err) }
+    logger.info('el usuario cerro sesion')
     res.redirect('/sign-in')
   })
 })
 
 userRouter.get('/profile', isAuth, async (req: Request, res: Response) => {
   res.json(req.user)
+})
+
+userRouter.post('/createOrder', isAuth, async (req: Request, res: Response) => {
+  try {
+    // @ts-ignore
+    const result = await userController.createOrder(req.user.id, req.body.cart)
+    res.json(result)
+  } catch (error) {
+    logger.error(error)
+    res.json({
+      error: true,
+      code: 4,
+      data: { message: 'Ocurrio un error interno' }
+    })
+  }
 })
 export default userRouter

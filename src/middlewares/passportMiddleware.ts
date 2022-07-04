@@ -57,6 +57,7 @@ passport.serializeUser((user:any, done:any) => {
 passport.deserializeUser(async function (id, done:any) {
   try {
     const result = await UserModel.findById(id)
+    logger.info('el usuario se autentico')
     // @ts-ignore
     done(null, { email: result.email, id: result._id, name: result.name, avatar: result.avatar })
   } catch (error) {
@@ -71,6 +72,7 @@ export const isAuth = (req: Request, res: Response, next: NextFunction) => {
     // console.log(req.user)
     return next()
   } else {
+    logger.info('user is not authenticated')
     res.redirect('/sign-in')
   }
 }

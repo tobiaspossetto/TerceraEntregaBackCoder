@@ -31,4 +31,18 @@ export default class productController {
       }
     }
   }
+
+  async getProductsById (id:string) {
+    try {
+      const product = await service.getProductsById(id)
+
+      return product
+    } catch (error) {
+      logger.error(error)
+      return {
+        error: true,
+        data: { message: 'Ocurrio un error interno' }
+      }
+    }
+  }
 }

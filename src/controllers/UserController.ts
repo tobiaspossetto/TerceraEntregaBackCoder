@@ -1,5 +1,6 @@
 import { logger } from '../helpers/log4js'
 import UserService from '../services/UserService'
+import { Iorder } from '../types/producTypes'
 import { IdataUserRegistration } from '../types/userTypes'
 const userService = new UserService()
 export default class UserController {
@@ -39,6 +40,21 @@ export default class UserController {
           data: { message: 'Ocurrio un error interno' }
         }
       }
+    } catch (error) {
+      logger.error(error)
+      return {
+        error: true,
+        code: 4,
+        data: { message: 'Ocurrio un error interno' }
+      }
+    }
+  }
+
+  async createOrder (userId:string, cart:Iorder) {
+    try {
+      // @ts-ignore
+      const result = await userService.createOrder(userId, cart)
+      return result
     } catch (error) {
       logger.error(error)
       return {

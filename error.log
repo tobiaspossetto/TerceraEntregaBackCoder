@@ -106,3 +106,295 @@
     at Generator.next (<anonymous>)
     at fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/routes/ProductsRouter.ts:5:58)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-07-04T14:36:18.716] [ERROR] default - CastError: Cast to ObjectId failed for value "2bf528ed3897fb907096f02" (type string) at path "_id" for model "products"
+    at model.Query.exec (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4777:21)
+    at model.Query.Query.then (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4876:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"2bf528ed3897fb907096f02"',
+  kind: 'ObjectId',
+  value: '2bf528ed3897fb907096f02',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/error.ts:16:5)
+      at new ObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/objectid.ts:88:15)
+      at castObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1590:20)
+      at cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:5199:12),
+  valueType: 'string'
+}
+[2022-07-04T14:37:11.192] [ERROR] default - CastError: Cast to ObjectId failed for value "2bf528ed3897fb907096f02" (type string) at path "_id" for model "products"
+    at model.Query.exec (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4777:21)
+    at model.Query.Query.then (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4876:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"2bf528ed3897fb907096f02"',
+  kind: 'ObjectId',
+  value: '2bf528ed3897fb907096f02',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/error.ts:16:5)
+      at new ObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/objectid.ts:88:15)
+      at castObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1590:20)
+      at cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:5199:12),
+  valueType: 'string'
+}
+[2022-07-04T14:40:06.687] [ERROR] default - CastError: Cast to ObjectId failed for value "2bf528ed3897fb907096f02" (type string) at path "_id" for model "products"
+    at model.Query.exec (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4777:21)
+    at model.Query.Query.then (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4876:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"2bf528ed3897fb907096f02"',
+  kind: 'ObjectId',
+  value: '2bf528ed3897fb907096f02',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/error.ts:16:5)
+      at new ObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/objectid.ts:88:15)
+      at castObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1590:20)
+      at cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:5199:12),
+  valueType: 'string'
+}
+[2022-07-04T14:41:39.066] [ERROR] default - TypeError: Cannot read properties of null (reading 'length')
+    at ProductsService.<anonymous> (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/file:/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/ProductService.ts:44:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/ProductService.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-07-04T14:42:48.791] [ERROR] default - TypeError: Cannot read properties of null (reading 'length')
+    at ProductsService.<anonymous> (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/file:/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/ProductService.ts:44:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/ProductService.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-07-04T14:50:25.647] [ERROR] default - TypeError: Cannot read properties of null (reading 'length')
+    at ProductsService.<anonymous> (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/file:/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/ProductService.ts:45:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/ProductService.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-07-04T14:51:12.851] [ERROR] default - TypeError: Cannot read properties of null (reading 'length')
+    at ProductsService.<anonymous> (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/file:/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/ProductService.ts:46:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/ProductService.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-07-04T14:52:37.439] [ERROR] default - TypeError: Cannot read properties of null (reading 'length')
+    at ProductsService.<anonymous> (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/file:/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/ProductService.ts:47:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/ProductService.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-07-04T14:56:52.782] [ERROR] default - ObjectParameterError: Parameter "filter" to find() must be an object, got 62bf5293d3897fb907096f1f
+    at model.Query.Query.find (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:2323:16)
+    at Function.find (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/model.js:2163:13)
+    at ProductsService.<anonymous> (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/file:/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/ProductService.ts:44:46)
+    at Generator.next (<anonymous>)
+    at /home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/ProductService.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/ProductService.ts:4:12)
+    at ProductsService.getProductsById (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/ProductService.ts:52:16)
+    at productController.<anonymous> (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/controllers/file:/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/controllers/ProductController.ts:37:37)
+    at Generator.next (<anonymous>)
+[2022-07-04T14:57:17.643] [ERROR] default - TypeError: Cannot read properties of null (reading 'length')
+    at ProductsService.<anonymous> (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/file:/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/ProductService.ts:46:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/ProductService.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-07-04T14:57:37.697] [ERROR] default - TypeError: Cannot read properties of null (reading 'length')
+    at ProductsService.<anonymous> (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/file:/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/ProductService.ts:47:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/src/services/ProductService.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-07-04T15:12:29.106] [ERROR] default - CastError: Cast to ObjectId failed for value "62c32d181ff9ac03d9225afsd" (type string) at path "_id" for model "products"
+    at model.Query.exec (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4777:21)
+    at model.Query.Query.then (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4876:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"62c32d181ff9ac03d9225afsd"',
+  kind: 'ObjectId',
+  value: '62c32d181ff9ac03d9225afsd',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/error.ts:16:5)
+      at new ObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/objectid.ts:88:15)
+      at castObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1590:20)
+      at cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:5199:12),
+  valueType: 'string'
+}
+[2022-07-04T15:15:23.467] [ERROR] default - CastError: Cast to ObjectId failed for value "62c32d181ff9ac03d9225afds" (type string) at path "_id" for model "products"
+    at model.Query.exec (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4777:21)
+    at model.Query.Query.then (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4876:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"62c32d181ff9ac03d9225afds"',
+  kind: 'ObjectId',
+  value: '62c32d181ff9ac03d9225afds',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/error.ts:16:5)
+      at new ObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/objectid.ts:88:15)
+      at castObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1590:20)
+      at cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:5199:12),
+  valueType: 'string'
+}
+[2022-07-04T15:15:30.955] [ERROR] default - CastError: Cast to ObjectId failed for value "62c32d181ff9ac03d9225af" (type string) at path "_id" for model "products"
+    at model.Query.exec (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4777:21)
+    at model.Query.Query.then (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4876:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"62c32d181ff9ac03d9225af"',
+  kind: 'ObjectId',
+  value: '62c32d181ff9ac03d9225af',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/error.ts:16:5)
+      at new ObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/objectid.ts:88:15)
+      at castObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1590:20)
+      at cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:5199:12),
+  valueType: 'string'
+}
+[2022-07-04T15:15:33.326] [ERROR] default - CastError: Cast to ObjectId failed for value "62c32d181ff9ac03d9225afs" (type string) at path "_id" for model "products"
+    at model.Query.exec (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4777:21)
+    at model.Query.Query.then (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4876:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"62c32d181ff9ac03d9225afs"',
+  kind: 'ObjectId',
+  value: '62c32d181ff9ac03d9225afs',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/error.ts:16:5)
+      at new ObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/objectid.ts:88:15)
+      at castObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1590:20)
+      at cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:5199:12),
+  valueType: 'string'
+}
+[2022-07-04T15:17:12.150] [ERROR] default - CastError: Cast to ObjectId failed for value "62c32d00c7941d8f4a61d835s" (type string) at path "_id" for model "products"
+    at model.Query.exec (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4777:21)
+    at model.Query.Query.then (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4876:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"62c32d00c7941d8f4a61d835s"',
+  kind: 'ObjectId',
+  value: '62c32d00c7941d8f4a61d835s',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/error.ts:16:5)
+      at new ObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/objectid.ts:88:15)
+      at castObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1590:20)
+      at cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:5199:12),
+  valueType: 'string'
+}
+[2022-07-04T15:17:46.956] [ERROR] default - CastError: Cast to ObjectId failed for value "62c32d00c7941d8f4a61d837\\" (type string) at path "_id" for model "products"
+    at model.Query.exec (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4777:21)
+    at model.Query.Query.then (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4876:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"62c32d00c7941d8f4a61d837\\\\"',
+  kind: 'ObjectId',
+  value: '62c32d00c7941d8f4a61d837\\',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/error.ts:16:5)
+      at new ObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/objectid.ts:88:15)
+      at castObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1590:20)
+      at cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:5199:12),
+  valueType: 'string'
+}
+[2022-07-04T15:51:26.065] [ERROR] default - CastError: Cast to ObjectId failed for value "{
+  _id: { '$in': [ '62c32caf5f41a9b617be2353', '62c32d181ff9ac03d9225afd' ] }
+}" (type Object) at path "_id" for model "products"
+    at model.Query.exec (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4777:21)
+    at model.Query.Query.then (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4876:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"{\n' +
+    "  _id: { '$in': [ '62c32caf5f41a9b617be2353', '62c32d181ff9ac03d9225afd' ] }\n" +
+    '}"',
+  kind: 'ObjectId',
+  value: { _id: { '$in': [Array] } },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/error.ts:16:5)
+      at new ObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/objectid.ts:88:15)
+      at castObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast/objectid.js:20:14)
+      at ObjectId.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1590:20)
+      at cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast.js:288:34)
+      at model.Query.Query.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:5199:12),
+  valueType: 'Object'
+}
+[2022-07-04T15:53:37.729] [ERROR] default - CastError: Cast to ObjectId failed for value "{ _id: { '$in': [ '62c32caf5f41a9b617be2353' ] } }" (type Object) at path "_id" for model "products"
+    at model.Query.exec (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4777:21)
+    at model.Query.Query.then (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:4876:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"{ _id: { '$in': [ '62c32caf5f41a9b617be2353' ] } }"`,
+  kind: 'ObjectId',
+  value: { _id: { '$in': [Array] } },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/error.ts:16:5)
+      at new ObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/bson/src/objectid.ts:88:15)
+      at castObjectId (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast/objectid.js:20:14)
+      at ObjectId.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/schematype.js:1590:20)
+      at cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/cast.js:288:34)
+      at model.Query.Query.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:5199:12),
+  valueType: 'Object'
+}
