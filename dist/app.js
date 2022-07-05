@@ -30,13 +30,13 @@ app.use((0, express_session_1.default)({
     resave: false,
     saveUninitialized: false,
     cookie: {
-        maxAge: 600000
+        maxAge: 60000
     }
 }));
+(0, mongoConnection_1.getConnectionMongo)();
 app.use(passport_1.default.initialize());
 app.use(passport_1.default.session());
 app.use((0, cookie_parser_1.default)());
-(0, mongoConnection_1.getConnectionMongo)();
 app.set('views', './src/public/views');
 app.set('view engine', 'pug');
 app.use('/', ViewsRoute_1.default);

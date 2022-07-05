@@ -4,3 +4,10 @@ export interface Iemail{
     text: string;
 
 }
+
+export interface Isms{
+    to: string;
+
+    text: string;
+
+}

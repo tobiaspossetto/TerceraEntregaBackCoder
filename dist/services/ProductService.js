@@ -9,9 +9,69 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+const log4js_1 = require("../helpers/log4js");
+const ProductModel_1 = require("../Models/ProductModel");
 class ProductsService {
     getAllProducts() {
         return __awaiter(this, void 0, void 0, function* () {
+            try {
+                const products = yield ProductModel_1.ProductModel.find({});
+                return {
+                    error: false,
+                    data: [...products]
+                };
+            }
+            catch (error) {
+                log4js_1.logger.error(error);
+                return ({
+                    error: true,
+                    data: { message: 'Ocurrio un error interno' }
+                });
+            }
+        });
+    }
+    getProductsByCategory(cat) {
+        return __awaiter(this, void 0, void 0, function* () {
+            try {
+                const products = yield ProductModel_1.ProductModel.find({ category: cat });
+                return {
+                    error: false,
+                    data: [...products]
+                };
+            }
+            catch (error) {
+                log4js_1.logger.error(error);
+                return ({
+                    error: true,
+                    data: { message: 'Ocurrio un error interno' }
+                });
+            }
+        });
+    }
+    getProductsById(id) {
+        return __awaiter(this, void 0, void 0, function* () {
+            try {
+                const product = yield ProductModel_1.ProductModel.findById(id);
+                if (product == null) {
+                    return {
+                        error: true,
+                        data: { message: 'El producto no se encontro' }
+                    };
+                }
+                else {
+                    return {
+                        error: false,
+                        data: product
+                    };
+                }
+            }
+            catch (error) {
+                log4js_1.logger.error(error);
+                return ({
+                    error: true,
+                    data: { message: 'Ocurrio un error interno' }
+                });
+            }
         });
     }
 }

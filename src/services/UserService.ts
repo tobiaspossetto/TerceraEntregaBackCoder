@@ -1,10 +1,11 @@
 import { logger } from '../helpers/log4js'
 import { sendMail } from '../helpers/nodemailer'
+import { sendSms, sendWpp } from '../helpers/twillio'
 import { OrderModel } from '../Models/OrderModel'
 import { ProductModel } from '../Models/ProductModel'
 
 import { UserModel } from '../Models/UserModel'
-import { Iorder } from '../types/producTypes'
+
 import { IdataUserRegistration } from '../types/userTypes'
 
 export default class UserService {
@@ -95,15 +96,13 @@ export default class UserService {
 
   async createOrder (userId:string, cart:{productId:string, quantity:number}[]) {
     try {
-      logger.info(userId)
-      logger.info(cart)
       const user = await UserModel.findById(userId)
       const prods = await ProductModel.find({
         _id: {
           $in: cart.map(item => item.productId)
         }
       })
-      logger.info(prods)
+
       const finalProducts = prods.map(item => {
         return {
           _id: item._id,
@@ -130,28 +129,45 @@ export default class UserService {
 
       }
       const newOrder = new OrderModel(order)
-      logger.info(newOrder)
-      await newOrder.save()
-      logger.info('Order created')
-      await sendMail({
-        to: 'tango45245362@gmail.com',
-        subject: 'Nuevo pedido en la app',
-        // @ts-ignore
-        text: `Hola!! Con este correo se notifica que: ${user.name}, ha realizado un nuevo pedido. 🥳️.
-        Esta es la información del pedido: 
-        ${JSON.stringify(order, null, 2)}
-        
-        `
-      })
 
-      return {
-        error: false,
-        code: 1,
-        data: {
-          message: 'Orden creada con exito'
+      newOrder.save(function (err: any, result: { _id: any }) {
+        if (err) {
+          logger.error(err)
+          return ({
+            error: true,
+            data: { message: 'Ocurrio un error creando el pedido' }
+          })
+        } else {
+          logger.warn(result)
+          sendMail({
+            to: 'tango45245362@gmail.com',
+            subject: 'Nuevo pedido en la app',
 
+            text: `Hola!! Con este correo se notifica que: ${user?.name}, ha realizado un nuevo pedido. 🥳️.
+            Esta es la información del pedido: 
+            ${JSON.stringify(order, null, 2)}
+            
+            `
+          })
+
+          sendSms(`Hola ${user?.name}! Tu pedido está en camino!! Puedes ver el estado del pedido con este código: ${result._id}`, user?.phone, user?.email)
+          sendWpp(`Hola!! Con este mensaje se notifica que: ${user?.name}, ha realizado un nuevo pedido. 🥳️.
+          Esta es la información del pedido: 
+          ${JSON.stringify(order, null, 2)}
+          
+          `)
+          logger.info('Order created')
+
+          return {
+            error: false,
+            code: 1,
+            data: {
+              message: 'Orden creada con exito'
+
+            }
+          }
         }
-      }
+      })
     } catch (error) {
       logger.error(error)
       return ({

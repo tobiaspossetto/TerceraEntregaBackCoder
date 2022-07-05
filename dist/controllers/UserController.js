@@ -67,5 +67,22 @@ class UserController {
             }
         });
     }
+    createOrder(userId, cart) {
+        return __awaiter(this, void 0, void 0, function* () {
+            try {
+                // @ts-ignore
+                const result = yield userService.createOrder(userId, cart);
+                return result;
+            }
+            catch (error) {
+                log4js_1.logger.error(error);
+                return {
+                    error: true,
+                    code: 4,
+                    data: { message: 'Ocurrio un error interno' }
+                };
+            }
+        });
+    }
 }
 exports.default = UserController;

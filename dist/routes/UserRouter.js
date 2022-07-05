@@ -49,7 +49,26 @@ userRouter.post('/logout', passportMiddleware_1.isAuth, (req, res, next) => {
         if (err) {
             return next(err);
         }
+        log4js_1.logger.info('el usuario cerro sesion');
         res.redirect('/sign-in');
     });
 });
+userRouter.get('/profile', passportMiddleware_1.isAuth, (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    res.json(req.user);
+}));
+userRouter.post('/createOrder', passportMiddleware_1.isAuth, (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        // @ts-ignore
+        const result = yield userController.createOrder(req.user.id, req.body.cart);
+        res.json(result);
+    }
+    catch (error) {
+        log4js_1.logger.error(error);
+        res.json({
+            error: true,
+            code: 4,
+            data: { message: 'Ocurrio un error interno' }
+        });
+    }
+}));
 exports.default = userRouter;

@@ -13,9 +13,39 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
-const passport_1 = __importDefault(require("passport"));
+const ProductController_1 = __importDefault(require("../controllers/ProductController"));
+const log4js_1 = require("../helpers/log4js");
+const passportMiddleware_1 = require("../middlewares/passportMiddleware");
 const productsRouter = (0, express_1.Router)();
-productsRouter.post('/sign-in', passport_1.default.authenticate('local'), (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    res.redirect('/');
+const controller = new ProductController_1.default();
+productsRouter.get('/', passportMiddleware_1.isAuth, (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const result = yield controller.getAllProducts();
+        res.json(result);
+    }
+    catch (error) {
+        log4js_1.logger.error(error);
+        res.status(500).json({ error: true, data: { message: 'Ocurrio un error interno' } });
+    }
+}));
+productsRouter.get('/cat/:cat', passportMiddleware_1.isAuth, (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const result = yield controller.getProductsByCategory(req.params.cat);
+        res.json(result);
+    }
+    catch (error) {
+        log4js_1.logger.error(error);
+        res.status(500).json({ error: true, data: { message: 'Ocurrio un error interno' } });
+    }
+}));
+productsRouter.get('/:id', passportMiddleware_1.isAuth, (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const result = yield controller.getProductsById(req.params.id);
+        res.json(result);
+    }
+    catch (error) {
+        log4js_1.logger.error(error);
+        res.status(500).json({ error: true, data: { message: 'Ocurrio un error interno' } });
+    }
 }));
 exports.default = productsRouter;

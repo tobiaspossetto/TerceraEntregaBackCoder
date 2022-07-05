@@ -38,7 +38,8 @@ passport.use(new LocalStrategy(
         id: user.id,
         email: user.email,
         name: user.name,
-        username: user.name
+        username: user.name,
+        phone: user.phone
       }
 
       return done(null, finalUser)
@@ -59,7 +60,7 @@ passport.deserializeUser(async function (id, done:any) {
     const result = await UserModel.findById(id)
     logger.info('el usuario se autentico')
     // @ts-ignore
-    done(null, { email: result.email, id: result._id, name: result.name, avatar: result.avatar })
+    done(null, { email: result.email, id: result._id, name: result.name, avatar: result.avatar, phone: result.phone })
   } catch (error) {
     logger.error(error)
     done(error)

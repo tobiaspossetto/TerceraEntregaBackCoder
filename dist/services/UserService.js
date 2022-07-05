@@ -11,6 +11,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const log4js_1 = require("../helpers/log4js");
 const nodemailer_1 = require("../helpers/nodemailer");
+const twillio_1 = require("../helpers/twillio");
+const OrderModel_1 = require("../Models/OrderModel");
+const ProductModel_1 = require("../Models/ProductModel");
 const UserModel_1 = require("../Models/UserModel");
 class UserService {
     signIn() {
@@ -95,6 +98,82 @@ class UserService {
                         emailNotification: false
                     }
                 };
+            }
+        });
+    }
+    createOrder(userId, cart) {
+        return __awaiter(this, void 0, void 0, function* () {
+            try {
+                const user = yield UserModel_1.UserModel.findById(userId);
+                const prods = yield ProductModel_1.ProductModel.find({
+                    _id: {
+                        $in: cart.map(item => item.productId)
+                    }
+                });
+                const finalProducts = prods.map(item => {
+                    var _a;
+                    return {
+                        _id: item._id,
+                        name: item.name,
+                        price: item.price,
+                        quantity: (_a = cart.find(i => i.productId === item._id.toString())) === null || _a === void 0 ? void 0 : _a.quantity
+                    };
+                });
+                const order = {
+                    user: {
+                        _id: user === null || user === void 0 ? void 0 : user._id,
+                        name: user === null || user === void 0 ? void 0 : user.name,
+                        email: user === null || user === void 0 ? void 0 : user.email,
+                        address: user === null || user === void 0 ? void 0 : user.address,
+                        phone: user === null || user === void 0 ? void 0 : user.phone
+                    },
+                    products: finalProducts,
+                    totalPrice: prods.reduce((acc, cur) => acc + cur.price, 0),
+                    totalItems: cart.reduce((acc, cur) => acc + cur.quantity, 0)
+                };
+                const newOrder = new OrderModel_1.OrderModel(order);
+                newOrder.save(function (err, result) {
+                    if (err) {
+                        log4js_1.logger.error(err);
+                        return ({
+                            error: true,
+                            data: { message: 'Ocurrio un error creando el pedido' }
+                        });
+                    }
+                    else {
+                        log4js_1.logger.warn(result);
+                        (0, nodemailer_1.sendMail)({
+                            to: 'tango45245362@gmail.com',
+                            subject: 'Nuevo pedido en la app',
+                            text: `Hola!! Con este correo se notifica que: ${user === null || user === void 0 ? void 0 : user.name}, ha realizado un nuevo pedido. 🥳️.
+            Esta es la información del pedido: 
+            ${JSON.stringify(order, null, 2)}
+            
+            `
+                        });
+                        (0, twillio_1.sendSms)(`Hola ${user === null || user === void 0 ? void 0 : user.name}! Tu pedido está en camino!! Puedes ver el estado del pedido con este código: ${result._id}`, user === null || user === void 0 ? void 0 : user.phone, user === null || user === void 0 ? void 0 : user.email);
+                        (0, twillio_1.sendWpp)(`Hola!! Con este mensaje se notifica que: ${user === null || user === void 0 ? void 0 : user.name}, ha realizado un nuevo pedido. 🥳️.
+          Esta es la información del pedido: 
+          ${JSON.stringify(order, null, 2)}
+          
+          `);
+                        log4js_1.logger.info('Order created');
+                        return {
+                            error: false,
+                            code: 1,
+                            data: {
+                                message: 'Orden creada con exito'
+                            }
+                        };
+                    }
+                });
+            }
+            catch (error) {
+                log4js_1.logger.error(error);
+                return ({
+                    error: true,
+                    data: { message: 'Ocurrio un error interno' }
+                });
             }
         });
     }

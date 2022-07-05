@@ -45,7 +45,8 @@ passport_1.default.use(new passport_local_1.Strategy({
                 id: user.id,
                 email: user.email,
                 name: user.name,
-                username: user.name
+                username: user.name,
+                phone: user.phone
             };
             return done(null, finalUser);
         }
@@ -62,8 +63,9 @@ passport_1.default.deserializeUser(function (id, done) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             const result = yield UserModel_1.UserModel.findById(id);
+            log4js_1.logger.info('el usuario se autentico');
             // @ts-ignore
-            done(null, { email: result.email, id: result._id, name: result.name });
+            done(null, { email: result.email, id: result._id, name: result.name, avatar: result.avatar, phone: result.phone });
         }
         catch (error) {
             log4js_1.logger.error(error);
@@ -78,6 +80,7 @@ const isAuth = (req, res, next) => {
         return next();
     }
     else {
+        log4js_1.logger.info('user is not authenticated');
         res.redirect('/sign-in');
     }
 };

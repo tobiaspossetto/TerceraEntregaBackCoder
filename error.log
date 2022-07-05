@@ -398,3 +398,1026 @@
       at model.Query.Query.cast (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/mongoose/lib/query.js:5199:12),
   valueType: 'Object'
 }
+[2022-07-05T14:01:16.153] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:17.612] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:18.882] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:20.346] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:21.882] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:23.247] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:24.552] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:25.875] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:27.387] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:28.639] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:31.580] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:33.860] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:35.161] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:36.497] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:37.598] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:38.871] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:40.088] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:42.287] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:44.819] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:46.475] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:47.790] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:49.836] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:51.508] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:53.830] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:55.514] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:57.004] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:01:59.053] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:02.023] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:04.115] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:06.437] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:08.422] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:10.068] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:12.075] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:14.339] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:16.601] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:18.305] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:20.067] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:23.070] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:24.519] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:27.215] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:29.959] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:32.696] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:34.690] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:38.850] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:40.642] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:42.051] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:44.259] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:46.136] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:47.801] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:50.509] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:53.200] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:54.957] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:57.730] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:02:59.936] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:04:36.575] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:04:38.190] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:04:39.507] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:04:40.823] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:04:42.236] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:04:43.452] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:04:45.388] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:04:46.898] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:04:48.232] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:04:49.777] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:04:51.270] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:04:53.277] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:04:55.449] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:04:57.578] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:04:59.099] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:05:00.569] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:05:02.282] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:05:04.375] [ERROR] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2022-07-05T14:17:28.804] [ERROR] default - { message: 'El email ya es utilizado', emailNotification: false }
+[2022-07-05T14:20:30.768] [ERROR] default - RestException [Error]: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.
+    at success (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/asap.js:40:19)
+    at flush (/home/tobias/Documentos/coderCursoBack/terceraEntrega/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined
+}
