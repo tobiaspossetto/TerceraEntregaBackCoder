@@ -11,6 +11,7 @@ import { getConnectionMongo } from './db/mongoConnection'
 import './middlewares/passportMiddleware'
 import morgan from 'morgan'
 import productsRouter from './routes/ProductsRouter'
+import MongoStore from 'connect-mongo'
 
 dotenv.config()
 const app = express()
@@ -30,7 +31,8 @@ app.use(
     saveUninitialized: false,
     cookie: {
       maxAge: 60000
-    }
+    },
+    store: MongoStore.create({ mongoUrl: `mongodb+srv://tobias:${process.env.MONGODB_ATLAS_PASSWORD}@cluster0.ulmpx.mongodb.net/ecommerce?retryWrites=true&w=majority`, ttl: 60 })
   })
 )
 getConnectionMongo()

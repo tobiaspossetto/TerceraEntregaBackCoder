@@ -6,7 +6,7 @@ import { ProductModel } from '../Models/ProductModel'
 
 import { UserModel } from '../Models/UserModel'
 
-import { IdataUserRegistration } from '../types/userTypes'
+import { IdataUserRegistration } from '../../types/userTypes'
 
 export default class UserService {
   async signIn () {
@@ -160,9 +160,9 @@ export default class UserService {
 
           return {
             error: false,
-            code: 1,
+
             data: {
-              message: 'Orden creada con exito'
+              id: result._id
 
             }
           }

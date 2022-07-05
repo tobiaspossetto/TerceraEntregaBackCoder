@@ -18,7 +18,7 @@ userRouter.post('/sign-up', upload.single('avatar'), multerCheck, async (req: Re
     if (result.error) {
       logger.error(result.data)
 
-      res.json(result).status(400)
+      res.json(result).status(200)
     } else {
       res.redirect('/sign-in')
     }
@@ -28,7 +28,7 @@ userRouter.post('/sign-up', upload.single('avatar'), multerCheck, async (req: Re
       error: true,
       code: 4,
       data: { message: 'Ocurrio un error interno' }
-    })
+    }).status(500)
   }
 })
 
@@ -41,21 +41,25 @@ userRouter.post('/logout', isAuth, (req, res, next) => {
 })
 
 userRouter.get('/profile', isAuth, async (req: Request, res: Response) => {
-  res.json(req.user)
+  res.json(req.user).status(200)
 })
 
 userRouter.post('/createOrder', isAuth, async (req: Request, res: Response) => {
   try {
     // @ts-ignore
     const result = await userController.createOrder(req.user.id, req.body.cart)
-    res.json(result)
+    if (result?.error) {
+      res.json(result).status(400)
+    } else {
+      res.json(result).status(200)
+    }
   } catch (error) {
     logger.error(error)
     res.json({
       error: true,
       code: 4,
       data: { message: 'Ocurrio un error interno' }
-    })
+    }).status(500)
   }
 })
 export default userRouter

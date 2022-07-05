@@ -1,7 +1,7 @@
 import { logger } from '../helpers/log4js'
 import UserService from '../services/UserService'
-import { Iorder } from '../types/producTypes'
-import { IdataUserRegistration } from '../types/userTypes'
+import { Iorder } from '../../types/producTypes'
+import { IdataUserRegistration } from '../../types/userTypes'
 const userService = new UserService()
 export default class UserController {
   async signIn () {

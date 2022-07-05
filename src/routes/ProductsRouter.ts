@@ -12,7 +12,7 @@ productsRouter.get('/', isAuth, async (req: Request, res: Response) => {
   try {
     const result = await controller.getAllProducts()
 
-    res.json(result)
+    res.json(result).status(200)
   } catch (error) {
     logger.error(error)
     res.status(500).json({ error: true, data: { message: 'Ocurrio un error interno' } })
@@ -23,7 +23,7 @@ productsRouter.get('/cat/:cat', isAuth, async (req: Request, res: Response) => {
   try {
     const result = await controller.getProductsByCategory(req.params.cat)
 
-    res.json(result)
+    res.json(result).status(200)
   } catch (error) {
     logger.error(error)
     res.status(500).json({ error: true, data: { message: 'Ocurrio un error interno' } })
@@ -34,7 +34,7 @@ productsRouter.get('/:id', isAuth, async (req: Request, res: Response) => {
   try {
     const result = await controller.getProductsById(req.params.id)
 
-    res.json(result)
+    res.json(result).status(200)
   } catch (error) {
     logger.error(error)
     res.status(500).json({ error: true, data: { message: 'Ocurrio un error interno' } })

@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 import bcrypt from 'bcryptjs'
-import { IUser } from '../types/userTypes'
+import { IUser } from '../../types/userTypes'
 import { logger } from '../helpers/log4js'
 
 const userCollection = 'users'

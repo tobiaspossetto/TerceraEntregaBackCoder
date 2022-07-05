@@ -1,5 +1,5 @@
 import nodemailer from 'nodemailer'
-import { Iemail } from '../types/notificationsTypes'
+import { Iemail } from '../../types/notificationsTypes'
 import { logger } from './log4js'
 import dotenv from 'dotenv'
 
