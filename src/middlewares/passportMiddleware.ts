@@ -2,7 +2,7 @@ import { logger } from '../helpers/log4js'
 import passport from 'passport'
 
 import { validPassword } from '../helpers/validPassword'
-import { UserModel } from '../Models/UserModel'
+import { UserModel } from '../Models/User.model'
 import { Strategy as LocalStrategy } from 'passport-local'
 import { NextFunction, Request, Response } from 'express'
 

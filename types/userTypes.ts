@@ -7,7 +7,7 @@ export interface IUser extends Document {
   name: string;
   address: string;
   phone: string;
-  avatar: string;
+  avatar: string | undefined;
   createdAt?: Date;
   encryptPassword(password: string): string;
 }
@@ -17,6 +17,6 @@ export interface IdataUserRegistration {
   name: string;
   address: string;
   phone: string;
-  avatar: string;
+  avatar: string | undefined;
   createdAt?: Date;
 }

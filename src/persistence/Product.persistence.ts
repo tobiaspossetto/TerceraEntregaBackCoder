@@ -1,43 +1,34 @@
-
 import { logger } from '../helpers/log4js'
 import { ProductModel } from '../Models/ProductModel'
 
-export default class ProductsService {
+export default class ProductPersistense {
   async getAllProducts () {
     try {
-      const products:any = await ProductModel.find({})
-      return {
-        error: false,
-        data: [...products]
-      }
+      const res = await ProductModel.find({})
+      return { error: false, data: res }
     } catch (error) {
       logger.error(error)
-      return ({
+      return {
         error: true,
-
-        data: { message: 'Ocurrio un error interno' }
-      })
+        data: { message: 'Ocurrio un error interno consultando a la base de datos' }
+      }
     }
   }
 
-  async getProductsByCategory (cat:string) {
+  async getByCategory (category:string) {
     try {
-      const products:any = await ProductModel.find({ category: cat })
-      return {
-        error: false,
-        data: [...products]
-      }
+      const result = await ProductModel.find({ category })
+      return { error: false, data: result }
     } catch (error) {
       logger.error(error)
-      return ({
+      return {
         error: true,
-
-        data: { message: 'Ocurrio un error interno' }
-      })
+        data: { message: 'Ocurrio un error interno consultando a la base de datos' }
+      }
     }
   }
 
-  async getProductsById (id:string) {
+  async getById (id:string) {
     try {
       const product:any = await ProductModel.findById(id)
       if (product == null) {
@@ -53,11 +44,10 @@ export default class ProductsService {
       }
     } catch (error) {
       logger.error(error)
-      return ({
+      return {
         error: true,
-
-        data: { message: 'Ocurrio un error interno' }
-      })
+        data: { message: 'Ocurrio un error interno consultando a la base de datos' }
+      }
     }
   }
 }

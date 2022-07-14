@@ -6,11 +6,11 @@ import cookieParser from 'cookie-parser'
 import minimist from 'minimist'
 import routerViews from './routes/ViewsRoute'
 import passport from 'passport'
-import userRouter from './routes/UserRouter'
+import userRouter from './routes/User.router'
 import { getConnectionMongo } from './db/mongoConnection'
 import './middlewares/passportMiddleware'
 import morgan from 'morgan'
-import productsRouter from './routes/ProductsRouter'
+import productsRouter from './routes/Products.router'
 import MongoStore from 'connect-mongo'
 
 dotenv.config()
